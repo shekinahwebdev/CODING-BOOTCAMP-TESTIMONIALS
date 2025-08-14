@@ -1,6 +1,8 @@
 import "./App.css";
 
-function App() {
+const App = () => {
+  const userInfo = {};
+
   return (
     <main className="main_app">
       <div className="image_slider">
@@ -24,6 +26,6 @@ function App() {
       </div>
     </main>
   );
-}
+};
 
 export default App;
