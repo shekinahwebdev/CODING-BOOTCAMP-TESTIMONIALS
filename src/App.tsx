@@ -1,29 +1,22 @@
 import "./App.css";
 
 const App = () => {
-  const userInfo = {};
-
   return (
     <main className="main_app">
-      <div className="image_slider">
-        <div className="slider">
-          <div className="slider_item">
-            <img src="/images/slider1.jpg" alt="Slider 1" />
+      <section className="testimonials_section">
+        <div className="testimonial_card">
+          <div className="image_container">
+            <img src="" />
           </div>
-          <div className="slider_item">
-            <img src="/images/slider2.jpg" alt="Slider 2" />
-          </div>
-          <div className="slider_item">
-            <img src="/images/slider3.jpg" alt="Slider 3" />
-          </div>
+          <button></button>
         </div>
-      </div>
 
-      <div className="testimonial_section">
-        <p className="testimonial_text">
-          "This coding bootcamp has transformed my career! The instructors are
-        </p>
-      </div>
+        <div className="testimonial_info">
+          <p className="testimonial_text"></p>
+          <p className="testimonial_name"></p>
+          <span className="testimonial_role"></span>
+        </div>
+      </section>
     </main>
   );
 };
