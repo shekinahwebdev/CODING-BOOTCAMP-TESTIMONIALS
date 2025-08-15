@@ -1,4 +1,4 @@
-const userInfo = [
+export const userInfo = [
   {
     img: {
       src: "./image-tanya.jpg",
