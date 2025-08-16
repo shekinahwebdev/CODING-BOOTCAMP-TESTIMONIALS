@@ -1,7 +1,7 @@
 export const userInfo = [
   {
     img: {
-      src: "./image-tanya.jpg",
+      src: "../public/images/image-tanya.jpg",
       alt: "image of Tanya Sinclair",
     },
     name: "Tanya Sinclair",
@@ -11,7 +11,7 @@ export const userInfo = [
   },
   {
     img: {
-      src: "./image-john.jpg",
+      src: "../public/images/image-john.jpg",
       alt: "image of John Tarkpor",
     },
     name: "John Tarkpor",
