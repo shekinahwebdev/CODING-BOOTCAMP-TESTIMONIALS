@@ -5,12 +5,16 @@ import prevIcon from "../public/images/icon-prev.svg";
 
 const App = () => {
   return (
-    <main className="main_app">
+    <main className="main_testimonial_app">
       {userInfo.map((user, index) => (
         <section className="testimonials_section" key={index}>
           <div className="testimonial_card">
             <div className="image_container">
-              <img src={user.img.src} alt={user.img.src} />
+              <img
+                src={user.img.src}
+                alt={user.img.src}
+                className="user_profile"
+              />
             </div>
             <div className="button_container">
               <button className="prev_button" aria-label="Previous testimonial">
@@ -22,7 +26,7 @@ const App = () => {
             </div>
           </div>
           <div className="testimonial_info">
-            <p className="testimonial_text">{user.testimonial}</p>
+            <p className="testimonial_text">"{user.testimonial}"</p>
             <p className="testimonial_name">{user.name}</p>
             <span className="testimonial_role">{user.role}</span>
           </div>

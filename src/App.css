@@ -5,7 +5,100 @@
   --Gray-400: hsl(240, 18%, 77%);
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-size: 32px;
+  font-size: 14px;
   font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url("../public/images/pattern-curve.svg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 80%;
+}
+
+.main_testimonial_app {
+  border: 2px solid blue;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 3rem 0rem; */
+}
+
+.testimonials_section {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 2rem 3rem; */
+}
+
+.testimonial_card {
+  background: url("../public/images/pattern-bg.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 2px solid yellow;
+  padding: 3rem;
+}
+
+.image_container {
+  width: 100%;
+}
+.user_profile {
+  width: 350px;
+  height: 100%;
+}
+
+.button_container {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  background-color: white;
+  padding: 0.7rem 1rem;
+  gap: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.prev_button,
+.next_button {
+  border: none;
+  background-color: transparent;
+}
+
+.testimonial_info {
+  border: 2px solid green;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  background: url("../public/images/pattern-curve.svg");
+}
+
+.testimonial_text {
+  padding: 1rem 3rem;
+  line-height: 1.4;
+  color: var(--Blue-950);
 }
