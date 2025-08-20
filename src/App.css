@@ -164,4 +164,8 @@ body {
     justify-content: center;
     border: 2px solid blue;
   }
+
+  .testimonial_card {
+    border: 2px solid green;
+  }
 }
